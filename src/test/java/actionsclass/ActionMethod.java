@@ -28,7 +28,7 @@ public class ActionMethod {
     public void practiceContextClick() {
         ChromeDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
         driver.navigate().to("https://demo.guru99.com/test/simple_context_menu.html");
 
         WebElement rightButton = driver.findElement(By.xpath("//span[@class='context-menu-one btn btn-neutral']"));
@@ -40,7 +40,7 @@ public class ActionMethod {
     public void doubleClick() {
         ChromeDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
         driver.navigate().to("https://demo.guru99.com/test/simple_context_menu.html");
 
         WebElement doubleClickBox = driver.findElement(By.xpath("//button[@ondblclick='myFunction()']"));

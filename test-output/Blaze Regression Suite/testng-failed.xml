@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Blaze Regression Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Blaze Test Cases(failed)">
+    <parameter name="password" value="A11Mam"/>
+    <parameter name="userName" value="Aigerim591"/>
+    <parameter name="message" value="Sign up successful."/>
+    <classes>
+      <class name="com.qa.blaze.test.BlazeProductTest">
+        <methods>
+          <include name="validateProductInformation"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.blaze.test.BlazeProductTest -->
+    </classes>
+  </test> <!-- Blaze Test Cases(failed) -->
+</suite> <!-- Failed suite [Blaze Regression Suite] -->
