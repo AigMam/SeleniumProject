@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Blaze Regression Suite">
+    <test name="Blaze Test Cases">
+        <parameter name="userName" value="Aigerim591"> </parameter>
+        <parameter name="password" value="A11Mam"> </parameter>
+        <parameter name="message" value="Sign up successful."> </parameter>
+        <classes>
+            <class name="com.qa.blaze.test.SignUpTest"> </class>
+            <class name="com.qa.blaze.test.BlazeProductTest"> </class>
+        </classes>
+    </test>
+</suite>

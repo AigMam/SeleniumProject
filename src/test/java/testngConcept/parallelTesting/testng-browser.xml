@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Demo of parallel browser testing" thread-count="2" parallel="tests">
+
+    <test name="Chrome Browser testing">
+        <parameter name="browser" value="chrome"> </parameter>
+        <classes>
+            <class name="testngConcept.parallelTesting.SearchTests"> </class>
+        </classes>
+    </test>
+
+
+    <test name="FireFox Browser testing">
+    <parameter name="browser" value="firefox"> </parameter>
+        <classes>
+            <class name="testngConcept.parallelTesting.SignUpTests"> </class>
+        </classes>
+</test>
+
+</suite>

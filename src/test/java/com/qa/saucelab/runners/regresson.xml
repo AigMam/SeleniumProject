@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="SauceLab Regression Suite">
+    <test name="SauceLab Test Cases">
+
+        <classes>
+
+            <class name="com.qa.saucelab.tests.SauceLabLoginTest"> </class>
+
+        </classes>
+    </test>
+</suite>

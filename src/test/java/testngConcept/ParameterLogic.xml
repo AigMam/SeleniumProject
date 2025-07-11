@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Parameter Practice Suite">
+    <test name="Logic Test">
+        <parameter name="name" value="Aigerim"> </parameter>
+        <parameter name="brand" value="Rolex"> </parameter>
+        <parameter name="color" value="Silver"> </parameter>
+        <parameter name="zipCode" value="60016"> </parameter>
+        <classes>
+
+            <class name="testngConcept.ParametersLogic"> </class>
+
+        </classes>
+    </test>
+</suite>
